@@ -1,4 +1,7 @@
 <?php
+
+
+        echo "Hello";
 /**
  * Created by PhpStorm.
  * User: adamglynn
