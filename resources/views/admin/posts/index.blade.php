@@ -10,6 +10,7 @@
                 <thead>
                     <tr>
                         <th>Title</th>
+                        <th>Category</th>
                         <th>User</th>
                         <th>Body</th>
                         <th>Image</th>
@@ -25,6 +26,7 @@
                 <tbody>
                     <tr>
                         <td class="success">{{$post->title}}</td>
+                        <td class="success">{{$post->category->name}}</td>
                         <td class="success">{{$post->user->name}}</td>
                         <td class="success">{{$post->body}}</td>
                         <td class="success"><img height="50" width="60" src="{{$post->photo ? $post->photo->file :'/images/standard_image.jpg'}}" alt=""></td>
